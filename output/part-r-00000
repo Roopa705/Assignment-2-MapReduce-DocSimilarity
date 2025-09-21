@@ -1,0 +1,3 @@
+(document2.txt, document1.txt)	-> 0.14
+(document3.txt, document1.txt)	-> 0.14
+(document3.txt, document2.txt)	-> 0.17

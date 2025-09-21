@@ -93,7 +93,7 @@ mv target/*.jar jar_file/
 Copy the JAR file to the Hadoop ResourceManager container:
 
 ```bash
-docker cp /workspaces/assignment-1-mapreduce-document-similarity-Navya-vejalla/target/DocumentSimilarity-0.0.1-SNAPSHOT.jar resourcemanager:/opt/hadoop-3.2.1/share/hadoop/mapreduce/
+docker cp /workspaces/Assignment-2-MapReduce-DocSimilarity/target/DocumentSimilarity-0.0.1-SNAPSHOT.jar resourcemanager:/opt/hadoop-3.2.1/share/hadoop/mapreduce/
 ```
 
 ### 5. **Move Dataset to Docker Container**

@@ -38,7 +38,7 @@ public class DocumentSimilarityReducer extends Reducer<Text, Text, Text, Text> {
             double jaccardSimilarity = (double) intersection.size() / union.size();
             double similarityPercentage = Math.round(jaccardSimilarity * 100.0) / 100.0;
 
-            if (similarityPercentage >= 0.50) {
+            if (similarityPercentage >= 0.01) {
                 String doc1 = existDoc;
                 String doc2 = key.toString();
                 context.write(new Text("(" + doc2 + ", " + doc1 + ")"), new Text("-> " + similarityPercentage ));
