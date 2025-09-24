@@ -140,6 +140,10 @@ Run your MapReduce job using the following command:
 hadoop jar DocumentSimilarity-0.0.1-SNAPSHOT.jar com.example.controller.DocumentSimilarityDriver /input/dataset/input_files /output
 ```
 
+```bash
+hadoop jar DocumentSimilarity-0.0.1-SNAPSHOT.jar com.example.controller.DocumentSimilarityDriver /input/dataset/input_files /output/SingleNode
+```
+
 ### 9. **View the Output**
 
 To view the output of your MapReduce job, use:
