@@ -192,3 +192,12 @@ Document3 Sample text with different words
 (document3.txt, document1.txt)	-> 0.19
 (document3.txt, document2.txt)	-> 0.13
 ```
+
+
+## Performance Comparison between the use of different number of nodes:
+
+| Configuration   | Execution Time | Notes                            |
+| --------------- | -------------- | -------------------------------- |
+| **3 Datanodes** | 12 sec         | Parallel execution across nodes  |
+| **1 Datanode**  | 26 sec         | All tasks handled by single node |
+
